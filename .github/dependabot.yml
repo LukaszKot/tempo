@@ -1,0 +1,7 @@
+version: 2
+updates:
+  # NuGet and npm entries are added by the tickets that create those projects.
+  - package-ecosystem: "github-actions"
+    directory: "/"
+    schedule:
+      interval: "weekly"
